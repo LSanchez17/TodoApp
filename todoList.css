@@ -1,0 +1,56 @@
+body
+{
+  background-color: #BD6B73;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+#projectInfo
+{
+  background-color: #A30B37;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  font-size: 1.25em;
+}
+
+#todoLogic
+{
+  background-color: #BBB6DF;
+  margin: auto;
+  padding: 10px;
+  color: beige;
+  font-size: 1.1em;
+}
+
+#currentTodo
+{
+  background-color: #C6C8EE;
+  color: beige;
+  font-size: 1.1em;
+  padding-right: 20px;
+}
+
+#task
+{
+  color: navajowhite;
+  font-size: 2em;
+}
+
+#finished
+{
+  display: inline-block;
+  border-radius: 2em;
+  color: green;
+  background-color: green;
+  padding: 4px;
+}
+
+#delete
+{
+    display: inline-block;
+    border-radius: 2em;
+    color: red;
+    background-color:red;
+}
